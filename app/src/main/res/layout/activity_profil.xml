@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="vimo.kivubox.www.vimo.Profil"
+    android:background="#f0f0f0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="25dp"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profilImage"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/avatar_placeholder"
+                        app:civ_border_width="3dp"
+                        app:civ_border_color="@color/colorWhite"
+                        android:layout_marginBottom="5dp"/>
+
+                    <TextView
+                        android:id="@+id/displayName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:padding="5dp"
+                        android:textColor="@color/colorWhite"
+                        android:textStyle="bold"
+                        android:textSize="19sp"
+                        />
+
+                    <TextView
+                        android:id="@+id/displayEmail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="#f0f0f0"
+                        android:textSize="16sp"/>
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:clickable="true"
+                    android:id="@+id/fName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorWhite"
+                    android:padding="15dp"
+                    android:layout_marginBottom="1dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="First name"
+                            android:paddingBottom="5dp"/>
+
+                        <TextView
+                            android:id="@+id/textfName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textColor="#333"
+                            android:textStyle="bold"
+                            android:textSize="17sp"
+                            android:background="@color/colorWhite"/>
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_alignParentRight="true"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:tint="@color/colorPrimaryDark"
+                        android:src="@android:drawable/ic_menu_edit"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:clickable="true"
+                    android:id="@+id/lName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorWhite"
+                    android:padding="15dp"
+                    android:layout_marginBottom="1dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Last name"
+                        android:paddingBottom="5dp"/>
+
+                    <TextView
+                        android:id="@+id/textlName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="#333"
+                        android:textStyle="bold"
+                        android:textSize="17sp"
+                        android:background="@color/colorWhite"/>
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_alignParentRight="true"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:tint="@color/colorPrimaryDark"
+                        android:src="@android:drawable/ic_menu_edit"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:clickable="true"
+                    android:id="@+id/phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorWhite"
+                    android:padding="15dp"
+                    android:layout_marginBottom="1dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Phone"
+                        android:paddingBottom="5dp"/>
+
+                    <TextView
+                        android:id="@+id/textPhone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="#333"
+                        android:textStyle="bold"
+                        android:textSize="17sp"
+                        android:background="@color/colorWhite"/>
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_alignParentRight="true"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:tint="@color/colorPrimaryDark"
+                        android:src="@android:drawable/ic_menu_edit"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:clickable="true"
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorWhite"
+                    android:padding="15dp"
+                    android:layout_marginBottom="1dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Email"
+                        android:paddingBottom="5dp"/>
+
+                    <TextView
+                        android:id="@+id/textEmail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="#333"
+                        android:textStyle="bold"
+                        android:textSize="17sp"
+                        android:background="@color/colorWhite"/>
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_alignParentRight="true"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:tint="@color/colorPrimaryDark"
+                        android:src="@android:drawable/ic_menu_edit"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:clickable="true"
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorWhite"
+                    android:padding="15dp"
+                    android:layout_marginBottom="1dp">
+
+                    <TextView
+                        android:id="@+id/textPassword"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Password"
+                        android:textColor="#333"
+                        android:textStyle="bold"
+                        android:textSize="17sp"
+                        android:background="@color/colorWhite"/>
+
+                    <ImageView
+                        android:layout_alignParentRight="true"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:tint="@color/colorPrimaryDark"
+                        android:src="@android:drawable/ic_menu_edit"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/deleteAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_action_delete"
+        android:tint="@color/colorWhite"
+        android:layout_margin="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:clickable="true"
+        />
+
+</RelativeLayout>

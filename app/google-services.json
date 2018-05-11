@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "592341159258",
+    "firebase_url": "https://vimo-e8fb6.firebaseio.com",
+    "project_id": "vimo-e8fb6",
+    "storage_bucket": "vimo-e8fb6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592341159258:android:42a72b2ac92a263f",
+        "android_client_info": {
+          "package_name": "vimo.kivubox.www.vimo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592341159258-qiiqj6jjjqa0sievl9dq8dd4s41mltp4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vimo.kivubox.www.vimo",
+            "certificate_hash": "39b42c92a61847b6f2cb8322fcd684a116ae5467"
+          }
+        },
+        {
+          "client_id": "592341159258-9bq69ihb5m5ah1vqkb8tcchjp5q8pdni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC07XjapzkNbW0zVNarQ16RPiw7Hovo110"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592341159258-9bq69ihb5m5ah1vqkb8tcchjp5q8pdni.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

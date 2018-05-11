@@ -1,0 +1,29 @@
+<resources>
+
+    <string name="facebook_app_id">2125987147631907</string>
+    <string name="fb_login_protocol_scheme">fb2125987147631907</string>
+
+    <string name="app_name">Vimo</string>
+    <string name="sign_up">Sign up</string>
+    <string name="log_in">Log in</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="or">Or</string>
+    <string name="google">Google</string>
+    <string name="facebook">Facebook</string>
+    <string name="already_have_an_account">Already have an account? </string>
+    <string name="sign_in"> Sign In</string>
+    <string name="right_name_alert">Please provide a right name</string>
+    <string name="not_empty">This field can\'t be empty</string>
+    <string name="right_email">Please provide a right email adress</string>
+    <string name="password_no_match">Passwords do not match!</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="send_me_the_link">Send me the link</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+</resources>
